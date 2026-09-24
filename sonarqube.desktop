@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SonarQube
+Comment=Start and Open SonarQube
+Exec=bash -c 'sudo systemctl start sonarqube && sleep 10 && xdg-open http://localhost:9000'
+Icon=applications-development
+Terminal=false
+Categories=Development;WebDevelopment;
